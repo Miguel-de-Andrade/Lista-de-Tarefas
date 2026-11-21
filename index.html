@@ -7,6 +7,45 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <header>
+        <h1>Lista de Tarefas</h1>
+        <p>desenvolvida para você organizar e programar o seu dia</p>
+    </header>
+
+    <main>
+
+        <section id="cabecalho">
+            <form id="form-tarefa">
+                <label for="tarefa">Nova tarefa:</label>
+                <input type="text" id="tarefa" name="tarefa" placeholder="Digite uma tarefa" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+
+        <section>
+            
+            <Table>
+
+                <thead>
+                        <tr>
+                            <th>Tarefa</th>
+                            <th>Status</th>
+                            <th>Remover</th>
+                        </tr>    
+                </thead>
+
+                <tbody id="lista-tarefas">
+                 
+                </tbody>
+            </Table>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Miguel de Andrade do Santos</p>
+    </footer>
     
 
 

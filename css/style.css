@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    background-color: lightblue;
+    padding: 12PX;
+    height: 10%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 32px 16px;
+    background-color: aliceblue;
+}
+
+#cabecalho{
+    text-align: center;
+    height: 60px;
+}
+
+#cabecalho  button{
+    padding: 8px 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(177, 207, 255);
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+}
+
+#cabecalho > button:hover{
+    background-color: bisque;
+}
+
+section {
+    width: 740px;
+    padding: 16px;
+    background-color: lightskyblue;
+    border-radius: 16px;
+}
+
+table {
+    width: 100%;
+    border-radius: 12px;
+    border-spacing: 0px;
+    overflow: hidden;   
+    background-color: white;
+}
+
+thead {
+    background-color: #1e3a5f;
+    color: white;
+}
+
+th,td {
+    padding: 12px;
+    text-align: center;
+}
+
+td{
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightskyblue;
+}
+
+tbody tr:hover {
+    background-color: #e0efff;
+}
+
+table input[type="checkbox"] {
+    accent-color: #3ceb25;
+    cursor: pointer;
+}
+
+table button {
+    padding: 6px 10px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #fee2e2;
+    color: #991b1b;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+table button:hover {
+    background-color: #fecaca;
+}
+
+tbody td:nth-child(2) {
+    text-align: center; 
+}
+
+footer{
+    height: 10%;
+    background-color: lightcyan;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
